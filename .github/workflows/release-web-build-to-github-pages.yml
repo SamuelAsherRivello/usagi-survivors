@@ -24,8 +24,13 @@ jobs:
       - name: Install Usagi
         run: curl -fsSL https://usagiengine.com/install.sh | sh
 
+      - name: Add Usagi to PATH
+        run: echo "$HOME/.usagi/bin" >> "$GITHUB_PATH"
+
       - name: Build web export
-        run: usagi export . --target web
+        run: |
+          usagi --version
+          usagi export . --target web
 
       - name: Prepare GitHub Pages artifact
         run: unzip export/usagi-survivors-web.zip -d site
