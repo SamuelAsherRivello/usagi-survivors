@@ -8,6 +8,11 @@ Usagi Survivors is a fast top-down "Vampire Survivors" clone game created with t
 Level up by defeating enemies to refill bombs, then time each blast to clear space and stay alive.
 
 <BR><BR>
+## Demo
+
+* [Play Usagi Survivors](https://samuelasherrivello.github.io/usagi-survivors/)
+
+<BR><BR>
 ## Pics
 
 ### Screenshot
@@ -41,12 +46,17 @@ Level up by defeating enemies to refill bombs, then time each blast to clear spa
 | Engine | [Usagi 1.0.0](https://github.com/brettchalupa/usagi) |
 
 <BR><BR>
+## Release Workflow
+
+1. In repository **Settings → Pages**, select **GitHub Actions** as the deployment source (one-time setup).
+2. Publish a GitHub Release. The `ReleaseWebBuildToGitHubPages` workflow exports the web build and deploys it to the [live demo](https://samuelasherrivello.github.io/usagi-survivors/).
+
+<BR><BR>
 # Credits
 
 **Created By**
 
-Samuel Asher Rivello. Over 25 years XP with game development (2025); over 10
-years XP with Unity (2025).
+Samuel Asher Rivello. Over 25 years XP with game development (2025); over 10 years XP with Unity (2025).
 
 **Contact**
 
@@ -55,4 +65,4 @@ years XP with Unity (2025).
 | Twitter | [@srivello](https://twitter.com/srivello) |
 | Git | [Github.com/SamuelAsherRivello](https://github.com/SamuelAsherRivello) |
 | Resume & Portfolio | [SamuelAsherRivello.com](https://www.SamuelAsherRivello.com) |
-| LinkedIn | [Linkedin.com/in/SamuelAsherRivello](https://www.linkedin.com/in/SamuelAsherRivello) |
+| LinkedIn | [Linkedin.com/in/SamuelAsherRivello](https://linkedin.com/in/SamuelAsherRivello) |
