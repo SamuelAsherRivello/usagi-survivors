@@ -33,7 +33,7 @@ jobs:
           usagi export . --target web
 
       - name: Prepare GitHub Pages artifact
-        run: unzip export/usagi-survivors-web.zip -d site
+        run: unzip usagi-survivors-web.zip -d site
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
